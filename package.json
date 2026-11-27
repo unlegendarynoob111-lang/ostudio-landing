@@ -1,0 +1,1 @@
+﻿{ "name": "ostudio-landing", "private": true, "scripts": { "start": "node server.js" } }

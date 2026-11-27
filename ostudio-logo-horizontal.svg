@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 256" role="img" aria-labelledby="title desc">
+  <title id="title">OStudio</title>
+  <desc id="desc">Logo ngang OStudio với biểu tượng O và tên thương hiệu</desc>
+  <rect x="16" y="16" width="224" height="224" rx="64" fill="#172033"/>
+  <circle cx="101" cy="128" r="51" fill="none" stroke="#FFFFFF" stroke-width="28"/>
+  <path d="M136 77C153 61 190 67 193 92C196 115 176 122 158 128C138 134 130 146 133 165C137 194 176 199 197 179" fill="none" stroke="#38C7D9" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="282" y="137" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="88" font-weight="800" letter-spacing="-5" fill="#172033">O<tspan fill="#38C7D9">Studio</tspan></text>
+  <text x="288" y="181" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="500" letter-spacing="1" fill="#38C7D9">ecosystem</text>
+</svg>

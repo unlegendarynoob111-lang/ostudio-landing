@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">OStudio monogram</title>
+  <desc id="desc">Biểu tượng OStudio trong hệ sinh thái O (OSub / ovoice / OPost)</desc>
+  <rect x="16" y="16" width="224" height="224" rx="64" fill="#172033"/>
+  <circle cx="101" cy="128" r="51" fill="none" stroke="#FFFFFF" stroke-width="28"/>
+  <path d="M136 77C153 61 190 67 193 92C196 115 176 122 158 128C138 134 130 146 133 165C137 194 176 199 197 179" fill="none" stroke="#38C7D9" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

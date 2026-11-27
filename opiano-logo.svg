@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">OPiano</title>
+  <desc id="desc">Biểu tượng OPiano — bàn phím piano trên nền xanh</desc>
+  <defs>
+    <linearGradient id="opbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4ea3ff"/>
+      <stop offset="1" stop-color="#0071e3"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="1024" height="1024" rx="232" fill="url(#opbg)"/>
+  <g fill="#ffffff">
+    <rect x="181" y="372" width="86" height="300" rx="16"/>
+    <rect x="277" y="372" width="86" height="300" rx="16"/>
+    <rect x="373" y="372" width="86" height="300" rx="16"/>
+    <rect x="469" y="372" width="86" height="300" rx="16"/>
+    <rect x="565" y="372" width="86" height="300" rx="16"/>
+    <rect x="661" y="372" width="86" height="300" rx="16"/>
+    <rect x="757" y="372" width="86" height="300" rx="16"/>
+  </g>
+  <g fill="#0a0a0c">
+    <rect x="246" y="372" width="52" height="188" rx="12"/>
+    <rect x="342" y="372" width="52" height="188" rx="12"/>
+    <rect x="534" y="372" width="52" height="188" rx="12"/>
+    <rect x="630" y="372" width="52" height="188" rx="12"/>
+    <rect x="726" y="372" width="52" height="188" rx="12"/>
+  </g>
+</svg>
