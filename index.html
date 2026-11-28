@@ -3,175 +3,227 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="dark">
-<title>OStudio — 8 công cụ AI cho người làm nội dung</title>
-<meta name="description" content="OStudio gồm 8 công cụ: dựng video, tạo clip AI, phụ đề, lồng tiếng, giọng đọc và tự động hoá kênh.">
+<title>OStudio — Hệ sinh thái AI cho người làm nội dung</title>
+<meta name="description" content="OStudio gồm 8 công cụ AI: dựng video, tạo clip từ ảnh, phụ đề, lồng tiếng, giọng đọc và tự động hoá kênh.">
 <link rel="canonical" href="https://ostudio.io.vn/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="OStudio — 8 công cụ AI cho người làm nội dung">
-<meta property="og:description" content="Dựng video, tạo clip AI, phụ đề, lồng tiếng, giọng đọc và tự động hoá kênh — trong một hệ sinh thái.">
+<meta property="og:title" content="OStudio — Hệ sinh thái AI cho người làm nội dung">
+<meta property="og:description" content="8 công cụ AI cho dựng video, giọng đọc, phụ đề và vận hành kênh.">
 <meta property="og:url" content="https://ostudio.io.vn/">
-<meta property="og:image" content="https://ostudio.io.vn/og.jpg">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#EEE7F9">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="/styles.css?v=4">
+<link rel="stylesheet" href="/styles.css?v=5">
 </head>
 <body>
 <a class="skip" href="#main">Bỏ qua đến nội dung</a>
 
-<header class="top">
-  <div class="wrap top-in">
-    <a class="logo" href="/">
-      <img src="/ostudio-logo.svg" width="30" height="30" alt="">
-      <b>OStudio</b>
+<header class="hdr">
+  <div class="hdr-in">
+    <a class="brand" href="/">
+      <img src="/ostudio-logo.svg" width="32" height="32" alt="">
+      <span>OStudio</span>
     </a>
-    <a class="top-cta" href="#cong-cu">Xem công cụ <i aria-hidden="true">↓</i></a>
+    <nav class="nav" aria-label="Điều hướng">
+      <a class="on" href="/">Trang chủ</a>
+      <a href="#cong-cu">Công cụ</a>
+      <a href="#cach-dung">Cách dùng</a>
+      <a href="#hoi-dap">Hỏi đáp</a>
+    </nav>
+    <div class="hdr-act">
+      <a class="btn btn-soft" href="#cong-cu">Xem công cụ</a>
+      <a class="btn btn-grad" href="mailto:support@ohgod.tech">Liên hệ</a>
+    </div>
   </div>
 </header>
 
 <main id="main">
 
-  <section class="wrap hero">
-    <p class="tag">HỆ SINH THÁI CÔNG CỤ AI</p>
-    <h1>Tám công cụ.<br><span>Một chỗ để chọn.</span></h1>
-    <p class="hero-sub">Mỗi công cụ làm đúng một việc: dựng video, tạo clip AI, làm phụ đề, lồng tiếng, đọc văn bản hay vận hành kênh. Chọn theo việc bạn đang làm.</p>
-    <nav class="jump" aria-label="Nhảy tới nhóm công cụ">
-      <a href="#tao-video">Tạo video <span>4</span></a>
-      <a href="#giong-noi">Giọng nói &amp; phụ đề <span>2</span></a>
-      <a href="#van-hanh">Vận hành kênh <span>2</span></a>
-    </nav>
+  <section class="hero">
+    <div class="orb" aria-hidden="true"></div>
+    <div class="wrap hero-in">
+      <span class="pill">8 CÔNG CỤ · MỘT HỆ SINH THÁI</span>
+      <h1>
+        <span class="grad">Bộ công cụ AI</span><br>
+        cho người làm nội dung
+      </h1>
+      <p class="lead">Dựng video, tạo clip từ ảnh, làm phụ đề, lồng tiếng, đọc văn bản và vận hành kênh. Mỗi công cụ làm một việc thật tốt — chọn theo việc bạn đang làm.</p>
+      <div class="hero-cta">
+        <a class="btn btn-soft btn-lg" href="#cong-cu">Xem 8 công cụ</a>
+        <a class="btn btn-grad btn-lg" href="#cach-dung">Cách chọn công cụ <i aria-hidden="true">→</i></a>
+      </div>
+      <ul class="hero-tags">
+        <li>Không cần cài đặt</li>
+        <li>Dùng chung tài khoản Google</li>
+        <li>Không phí duy trì</li>
+      </ul>
+    </div>
   </section>
 
-  <section class="wrap group" id="tao-video">
-    <header class="group-head">
-      <p class="group-num">01</p>
-      <div>
-        <h2>Tạo &amp; dựng video</h2>
-        <p>Từ ảnh, từ kịch bản hay từ clip thô — chọn công cụ khớp với nguyên liệu bạn có.</p>
-      </div>
-    </header>
+  <section class="wrap sect" id="cong-cu">
+    <h2 class="sect-h"><span class="grad">Tám công cụ</span> trong một hệ sinh thái</h2>
+    <p class="sect-sub">Bốn công cụ dựng video, hai công cụ cho âm thanh và phụ đề, hai công cụ vận hành kênh.</p>
 
-    <div class="grid">
+    <div class="bento">
 
-      <a class="card" href="https://ov.ostudio.io.vn/">
-        <span class="card-art card-art--a" aria-hidden="true"><img src="/img/ovideo-logo-sang.png" alt=""></span>
-        <span class="card-name">OVideo</span>
-        <span class="card-sub">Bộ ba app Windows chạy hàng đợi trên máy</span>
-        <span class="card-go">Mở <i aria-hidden="true">→</i></span>
+      <a class="tile t-3" href="https://ovideo.ostudio.io.vn/">
+        <span class="tile-top">
+          <span class="chip chip-a">OV</span>
+          <span class="tag">Bộ ba app Windows</span>
+        </span>
+        <b class="tile-name">OVideo</b>
+        <span class="tile-desc">Seedance + Veo3 tự động hoá Google Flow, Muse.ai tạo ảnh video, Sub xử lý phụ đề. Chạy hàng đợi ngay trên máy.</span>
+        <span class="tile-go">Mở OVideo <i aria-hidden="true">→</i></span>
       </a>
 
-      <a class="card" href="https://ov.ostudio.io.vn/oedit/">
-        <span class="card-art card-art--a" aria-hidden="true">✂</span>
-        <span class="card-name">OEdit</span>
-        <span class="card-sub">Cắt clip, phụ đề, nhạc — dựng bằng tiếng Việt</span>
-        <span class="card-go">Mở <i aria-hidden="true">→</i></span>
+      <a class="tile t-3" href="https://ov.ostudio.io.vn/oedit/">
+        <span class="tile-top">
+          <span class="chip chip-b">OE</span>
+          <span class="tag">Dựng video</span>
+        </span>
+        <b class="tile-name">OEdit</b>
+        <span class="tile-desc">Thả clip vào timeline, gõ lệnh bằng tiếng Việt. Cắt ậm ừ, lên phụ đề, ghép nhạc và xuất dọc cho TikTok, Reels.</span>
+        <span class="tile-go">Mở OEdit <i aria-hidden="true">→</i></span>
       </a>
 
-      <a class="card" href="https://dance.io.vn/">
-        <span class="card-art card-art--b" aria-hidden="true">◉</span>
-        <span class="card-name">ODance</span>
-        <span class="card-sub">Ảnh nhân vật + video mẫu thành clip nhảy</span>
-        <span class="card-go">Mở <i aria-hidden="true">→</i></span>
+      <a class="tile t-2" href="https://dance.io.vn/">
+        <span class="tile-top"><span class="chip chip-c">OD</span></span>
+        <b class="tile-name">ODance</b>
+        <span class="tile-desc">Ảnh nhân vật + video mẫu thành clip nhảy.</span>
+        <span class="tile-go">Mở <i aria-hidden="true">→</i></span>
       </a>
 
-      <a class="card" href="https://tool.ostudio.io.vn/">
-        <span class="card-art card-art--b" aria-hidden="true">✦</span>
-        <span class="card-name">OVeo3</span>
-        <span class="card-sub">Văn bản hoặc ảnh thành video hàng loạt</span>
-        <span class="card-go">Mở <i aria-hidden="true">→</i></span>
+      <a class="tile t-2" href="https://tool.ostudio.io.vn/">
+        <span class="tile-top"><span class="chip chip-d">OV</span></span>
+        <b class="tile-name">OVeo3</b>
+        <span class="tile-desc">Văn bản hoặc ảnh thành video hàng loạt.</span>
+        <span class="tile-go">Mở <i aria-hidden="true">→</i></span>
+      </a>
+
+      <a class="tile t-2" href="https://sub.ostudio.io.vn/">
+        <span class="tile-top"><span class="chip chip-e">OS</span></span>
+        <b class="tile-name">Osub</b>
+        <span class="tile-desc">Bóc phụ đề, dịch và lồng tiếng cho video có sẵn.</span>
+        <span class="tile-go">Mở <i aria-hidden="true">→</i></span>
+      </a>
+
+      <a class="tile t-2" href="https://tts.ostudio.io.vn/">
+        <span class="tile-top"><span class="chip chip-f">VX</span></span>
+        <b class="tile-name">Voxeer</b>
+        <span class="tile-desc">Văn bản thành giọng đọc, trả theo ký tự.</span>
+        <span class="tile-go">Mở <i aria-hidden="true">→</i></span>
+      </a>
+
+      <a class="tile t-2" href="https://zalo.ostudio.io.vn/">
+        <span class="tile-top"><span class="chip chip-g">OZ</span></span>
+        <b class="tile-name">Ozalo</b>
+        <span class="tile-desc">Quản nhiều tài khoản Zalo, gửi tin có kiểm soát.</span>
+        <span class="tile-go">Mở <i aria-hidden="true">→</i></span>
+      </a>
+
+      <a class="tile t-2" href="https://sub24.ostudio.io.vn/">
+        <span class="tile-top"><span class="chip chip-h">OB</span></span>
+        <b class="tile-name">OBuff</b>
+        <span class="tile-desc">Đặt tương tác mạng xã hội, giá công khai.</span>
+        <span class="tile-go">Mở <i aria-hidden="true">→</i></span>
       </a>
 
     </div>
   </section>
 
-  <section class="wrap group" id="giong-noi">
-    <header class="group-head">
-      <p class="group-num">02</p>
-      <div>
-        <h2>Giọng nói &amp; phụ đề</h2>
-        <p>Phần nghe và phần đọc của video — dùng được cho mọi loại nội dung.</p>
-      </div>
-    </header>
+  <section class="wrap sect" id="cach-dung">
+    <h2 class="sect-h">Chọn theo <span class="grad">nguyên liệu bạn có</span></h2>
+    <p class="sect-sub">Bắt đầu từ thứ đang có trong tay — ảnh, kịch bản hay clip thô.</p>
 
-    <div class="grid grid--2">
-
-      <a class="card" href="https://tts.ostudio.io.vn/">
-        <span class="card-art card-art--c" aria-hidden="true">♪</span>
-        <span class="card-name">Voxeer</span>
-        <span class="card-sub">Văn bản thành giọng đọc, trả theo ký tự</span>
-        <span class="card-go">Mở <i aria-hidden="true">→</i></span>
+    <div class="pick">
+      <a class="pick-row" href="https://ov.ostudio.io.vn/oedit/">
+        <span class="pick-n">01</span>
+        <span class="pick-main"><b>Có clip thô</b><small>Cần cắt, lên phụ đề, ghép nhạc → OEdit</small></span>
+        <span class="pick-go" aria-hidden="true">→</span>
       </a>
-
-      <a class="card" href="https://sub.ostudio.io.vn/">
-        <span class="card-art card-art--c" aria-hidden="true">CC</span>
-        <span class="card-name">Osub</span>
-        <span class="card-sub">Bóc phụ đề, dịch và lồng tiếng cho video có sẵn</span>
-        <span class="card-go">Mở <i aria-hidden="true">→</i></span>
+      <a class="pick-row" href="https://dance.io.vn/">
+        <span class="pick-n">02</span>
+        <span class="pick-main"><b>Có ảnh nhân vật</b><small>Muốn thành clip chuyển động → ODance</small></span>
+        <span class="pick-go" aria-hidden="true">→</span>
       </a>
-
+      <a class="pick-row" href="https://tool.ostudio.io.vn/">
+        <span class="pick-n">03</span>
+        <span class="pick-main"><b>Có kịch bản</b><small>Cần sinh video hàng loạt → OVeo3</small></span>
+        <span class="pick-go" aria-hidden="true">→</span>
+      </a>
+      <a class="pick-row" href="https://tts.ostudio.io.vn/">
+        <span class="pick-n">04</span>
+        <span class="pick-main"><b>Có văn bản</b><small>Cần giọng đọc tiếng Việt → Voxeer</small></span>
+        <span class="pick-go" aria-hidden="true">→</span>
+      </a>
+      <a class="pick-row" href="https://sub.ostudio.io.vn/">
+        <span class="pick-n">05</span>
+        <span class="pick-main"><b>Có video ngoại ngữ</b><small>Cần phụ đề Việt và lồng tiếng → Osub</small></span>
+        <span class="pick-go" aria-hidden="true">→</span>
+      </a>
+      <a class="pick-row" href="https://ovideo.ostudio.io.vn/">
+        <span class="pick-n">06</span>
+        <span class="pick-main"><b>Cần cả bộ chạy nền</b><small>Máy Windows, hàng đợi theo lô → OVideo</small></span>
+        <span class="pick-go" aria-hidden="true">→</span>
+      </a>
     </div>
   </section>
 
-  <section class="wrap group" id="van-hanh">
-    <header class="group-head">
-      <p class="group-num">03</p>
-      <div>
-        <h2>Vận hành kênh</h2>
-        <p>Đưa nội dung ra và giữ nhịp tương tác sau khi đã có video.</p>
-      </div>
-    </header>
+  <section class="wrap sect" id="hoi-dap">
+    <h2 class="sect-h">Câu hỏi <span class="grad">thường gặp</span></h2>
+    <p class="sect-sub">Không thấy câu trả lời? Gửi email tới <a class="ilink" href="mailto:support@ohgod.tech">support@ohgod.tech</a>.</p>
 
-    <div class="grid grid--2">
-
-      <a class="card" href="https://zalo.ostudio.io.vn/">
-        <span class="card-art card-art--d" aria-hidden="true">◎</span>
-        <span class="card-name">Ozalo</span>
-        <span class="card-sub">Quản nhiều tài khoản Zalo, gửi tin có kiểm soát</span>
-        <span class="card-go">Mở <i aria-hidden="true">→</i></span>
-      </a>
-
-      <a class="card" href="https://sub24.ostudio.io.vn/">
-        <span class="card-art card-art--d" aria-hidden="true">✳</span>
-        <span class="card-name">OBuff</span>
-        <span class="card-sub">Đặt tương tác mạng xã hội, giá công khai</span>
-        <span class="card-go">Mở <i aria-hidden="true">→</i></span>
-      </a>
-
+    <div class="faq">
+      <details open>
+        <summary>Có phải mua cả bộ không?<span aria-hidden="true">+</span></summary>
+        <p>Không. Mỗi công cụ bán riêng, mua công cụ nào dùng công cụ đó. Trang này chỉ giúp bạn tìm đúng công cụ cho việc đang làm.</p>
+      </details>
+      <details>
+        <summary>Công cụ nào chạy trên máy, công cụ nào chạy trên web?<span aria-hidden="true">+</span></summary>
+        <p>OVideo, OEdit và Osub có bản cài Windows để dựng nặng trên máy. ODance, OVeo3, Voxeer chạy trên trình duyệt. Ozalo chạy qua trình duyệt của bạn nên cần giữ máy bật khi chạy hàng đợi.</p>
+      </details>
+      <details>
+        <summary>Dùng chung một tài khoản được không?<span aria-hidden="true">+</span></summary>
+        <p>Được. Các công cụ dùng chung đăng nhập Google. Bản quyền gắn với Gmail và thiết bị bạn dùng, nên đổi máy thì liên hệ hỗ trợ để chuyển.</p>
+      </details>
+      <details>
+        <summary>Mua rồi có phải trả thêm phí duy trì?<span aria-hidden="true">+</span></summary>
+        <p>Không có phí duy trì hàng tháng. Có công cụ bán theo thời hạn (1 tháng, 6 tháng, 1 năm), có công cụ bán một lần dùng mãi. Giá ghi rõ ở trang từng công cụ.</p>
+      </details>
     </div>
   </section>
 
-  <section class="wrap note">
-    <h2>Cần biết trước khi chọn</h2>
-    <dl>
-      <div>
-        <dt>Mua riêng từng công cụ</dt>
-        <dd>Không phải mua cả bộ. Trang này chỉ để bạn tìm đúng công cụ cho việc đang làm.</dd>
-      </div>
-      <div>
-        <dt>Dùng chung một tài khoản Google</dt>
-        <dd>Bản quyền gắn với Gmail và thiết bị. Đổi máy thì liên hệ hỗ trợ để chuyển.</dd>
-      </div>
-      <div>
-        <dt>Không phí duy trì hàng tháng</dt>
-        <dd>Có công cụ bán theo thời hạn, có công cụ bán một lần dùng mãi. Giá ghi rõ ở từng trang.</dd>
-      </div>
-    </dl>
+  <section class="wrap cta-sect">
+    <div class="cta-box">
+      <div class="cta-orb" aria-hidden="true"></div>
+      <h2>Chọn đúng công cụ.<br><span class="grad-l">Đỡ mất thời gian.</span></h2>
+      <p>Mở công cụ bạn cần, không phải đi tìm.</p>
+      <a class="btn btn-grad btn-lg" href="#cong-cu">Xem lại 8 công cụ <i aria-hidden="true">→</i></a>
+    </div>
   </section>
 
 </main>
 
-<footer class="foot">
-  <div class="wrap foot-in">
-    <a class="logo" href="/">
-      <img src="/ostudio-logo.svg" width="26" height="26" alt="">
-      <b>OStudio</b>
-    </a>
-    <p>Công cụ AI cho người làm nội dung Việt.</p>
-    <a class="foot-mail" href="mailto:support@ohgod.tech">support@ohgod.tech</a>
-    <span class="foot-copy">© 2026 OStudio</span>
+<footer class="ft">
+  <div class="wrap ft-in">
+    <div class="ft-brand">
+      <a class="brand" href="/">
+        <img src="/ostudio-logo.svg" width="28" height="28" alt="">
+        <span>OStudio</span>
+      </a>
+      <p>Công cụ AI cho người làm nội dung Việt.</p>
+    </div>
+    <nav class="ft-links" aria-label="Liên kết chân trang">
+      <a href="https://ovideo.ostudio.io.vn/">OVideo</a>
+      <a href="https://ov.ostudio.io.vn/oedit/">OEdit</a>
+      <a href="https://dance.io.vn/">ODance</a>
+      <a href="https://sub.ostudio.io.vn/">Osub</a>
+      <a href="https://tool.ostudio.io.vn/">OVeo3</a>
+      <a href="https://tts.ostudio.io.vn/">Voxeer</a>
+      <a href="https://zalo.ostudio.io.vn/">Ozalo</a>
+      <a href="https://sub24.ostudio.io.vn/">OBuff</a>
+    </nav>
+    <p class="ft-copy">Hỗ trợ: <a class="ilink" href="mailto:support@ohgod.tech">support@ohgod.tech</a> · © 2026 OStudio</p>
   </div>
 </footer>
 
