@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="t d">
+  <title id="t">Ozalo monogram</title>
+  <desc id="d">Biểu tượng chữ O và Z cho Ozalo</desc>
+  <rect x="16" y="16" width="224" height="224" rx="64" fill="#172033"/>
+  <circle cx="101" cy="128" r="51" fill="none" stroke="#ffffff" stroke-width="27"/>
+  <path d="M137 82H198L145 174H199" fill="none" stroke="#1686E8" stroke-width="25" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

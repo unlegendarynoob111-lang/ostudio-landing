@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">ODance monogram</title>
+  <desc id="desc">Biểu tượng chữ O và người nhảy cho ODance</desc>
+  <rect x="16" y="16" width="224" height="224" rx="64" fill="#172033"/>
+  <circle cx="101" cy="128" r="51" fill="none" stroke="#FFFFFF" stroke-width="28"/>
+  <g fill="none" stroke="#22C55E" stroke-width="26" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M174 104L160 150"/>
+    <path d="M174 106L214 84"/>
+    <path d="M174 106L140 92"/>
+    <path d="M160 150L140 204"/>
+    <path d="M160 150L200 194"/>
+  </g>
+  <circle cx="178" cy="66" r="17" fill="#22C55E"/>
+</svg>
