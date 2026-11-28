@@ -1,145 +1,290 @@
 <!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
-  <title>OStudio | ODance & OVideo — Công cụ sáng tạo video</title>
-  <meta name="description" content="Khám phá ODance tạo video nhảy từ ảnh và OVideo, bộ công cụ Windows cho quy trình tạo video theo lô.">
-  <link rel="canonical" href="https://ostudio.io.vn/">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="OStudio | ODance & OVideo">
-  <meta property="og:description" content="ODance biến ảnh thành clip nhảy. OVideo mở rộng quy trình tạo nội dung trên Windows.">
-  <meta property="og:url" content="https://ostudio.io.vn/">
-  <meta property="og:image" content="https://ostudio.io.vn/landing-assets/img/og-coral.jpg">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="icon" href="/landing-assets/favicon.svg?v=20261022a" type="image/svg+xml">
-  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
-  <link rel="stylesheet" href="/landing-assets/fonts.css?v=20261009g">
-  <link rel="stylesheet" href="/landing-assets/styles.css?v=20261022c">
-  <link rel="preload" href="/landing-assets/img/result-coral-poster.jpg" as="image"><link rel="preload" href="/landing-assets/fonts/manrope-4.woff2" as="font" type="font/woff2" crossorigin>
-  <script src="/landing-assets/app.js?v=20261022c" defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="dark">
+<title>OStudio — Hệ sinh thái công cụ AI cho người làm nội dung</title>
+<meta name="description" content="OStudio gồm ODance, OVideo, OEdit, Osub, OVeo3, Voxeer, Ozalo và OBuff — bộ công cụ AI cho dựng video, lồng tiếng, tạo clip và vận hành kênh.">
+<link rel="canonical" href="https://ostudio.io.vn/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="OStudio — Hệ sinh thái công cụ AI">
+<meta property="og:description" content="8 công cụ cho người làm nội dung: dựng video, tạo clip AI, lồng tiếng, phụ đề, tự động hoá Zalo và tăng tương tác.">
+<meta property="og:url" content="https://ostudio.io.vn/">
+<meta property="og:image" content="https://ostudio.io.vn/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="stylesheet" href="/fonts.css">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Bỏ qua đến nội dung</a>
-  <header class="site-header">
-    <div class="container navigation">
-      <a class="brand" href="#top" aria-label="OStudio, trang chủ"><img src="/landing-assets/ostudio-logo.svg" width="34" height="34" alt=""><span>OStudio</span></a>
-      <nav id="nav" aria-label="Điều hướng chính">
-        <a href="#demo">Xem demo</a><a href="#examples">Clip khác</a><a href="#pricing">Chi phí</a><a href="#ovideo">OVideo</a><a href="#faq">FAQ</a>
-      </nav>
-      <div class="nav-actions"><a class="button compact" href="https://dance.ostudio.io.vn/">Tạo clip <span aria-hidden="true">↗</span></a><button id="menuBtn" class="menu-button" aria-controls="nav" aria-expanded="false" aria-label="Mở menu"><span></span><span></span></button></div>
+<a class="skip-link" href="#main">Bỏ qua đến nội dung</a>
+<header class="site-header">
+  <div class="container navigation">
+    <a class="brand" href="/" aria-label="OStudio, trang chủ">
+      <img src="/ostudio-logo.svg" width="34" height="34" alt="">
+      <span>OStudio</span>
+    </a>
+    <nav id="nav" aria-label="Điều hướng chính">
+      <a href="#cong-cu">Công cụ</a>
+      <a href="#video">Dựng video</a>
+      <a href="#am-thanh">Âm thanh</a>
+      <a href="#van-hanh">Vận hành</a>
+      <a href="#lien-he">Liên hệ</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="button compact" href="#cong-cu">Xem 8 công cụ <span aria-hidden="true">↗</span></a>
+      <button id="menuBtn" class="menu-button" aria-controls="nav" aria-expanded="false" aria-label="Mở menu"><span></span><span></span></button>
     </div>
-  </header>
+  </div>
+</header>
 
-  <main id="main">
-    <section id="top" class="hero container">
-      <div class="hero-copy">
-        <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> ODANCE / AI DANCE STUDIO</p>
-        <h1>Cho ảnh<br>của bạn<br><em>bắt nhịp.</em></h1>
-        <p class="hero-description">Một bức ảnh đẹp. Một điệu nhảy bạn thích.<br>Ghép lại thành clip mang phong cách của bạn.</p>
-        <div class="hero-actions"><a class="button" href="https://dance.ostudio.io.vn/create/general?id=1">Tạo clip nhảy <span aria-hidden="true">↗</span></a><a class="text-link" href="#how">Xem ảnh → video <span aria-hidden="true">↓</span></a></div>
-        <div class="hero-notes"><span>Google login</span><span>Pro · 1080p</span><span>Từ 1.000đ</span></div>
-        <figure class="ecosystem-intro">
-          <img src="/landing-assets/img/ostudio-ecosystem-hero.jpg" width="1672" height="941" fetchpriority="high" alt="Nhà sáng tạo đang làm việc với video nhảy và quảng cáo sản phẩm trong hệ sinh thái OStudio">
-          <figcaption><span>OSTUDIO · ODANCE + OVIDEO</span><strong>Từ ý tưởng đến video hoàn chỉnh.</strong></figcaption>
-        </figure>
-      </div>
-      <div class="hero-stage" id="demo">
-        <div class="stage-heading"><span>YOUR NEXT DANCE</span><span>ẢNH → CHUYỂN ĐỘNG</span></div>
-        <figure class="clip-card clip-main"><video id="heroVideo" class="motion-preview" poster="/landing-assets/img/result-coral-poster.jpg" preload="metadata" playsinline loop muted aria-label="Kết quả ODance: nhân vật áo san hô nhảy từ ảnh"><source src="/landing-assets/img/clip-coral-1080.mp4" type="video/mp4"></video><figcaption><span class="clip-label">TẠO BẰNG ODANCE</span><strong>Your photo.<br>Your moves.</strong><span class="clip-duration" data-duration="heroVideo" hidden>0:00</span><button class="clip-control" data-video="heroVideo" aria-label="Phát hoặc tạm dừng clip áo san hô" aria-pressed="false">▶</button></figcaption></figure>
-        <figure class="clip-card clip-second"><video id="secondVideo" class="motion-preview" poster="/landing-assets/img/motion-marie-poster.jpg" preload="metadata" playsinline loop muted aria-label="Video nhảy mẫu nhẹ nhàng từ TikTok Marie.RA"><source src="/landing-assets/img/motion-marie-1080.mp4" type="video/mp4"></video><figcaption><span class="clip-label">CHUYỂN ĐỘNG TIKTOK</span><strong>The moves.<br>Your inspiration.</strong><span class="clip-duration" data-duration="secondVideo" hidden>0:00</span><button class="clip-control" data-video="secondVideo" aria-label="Phát hoặc tạm dừng video nhảy mẫu" aria-pressed="false">▶</button></figcaption></figure>
-        <figure class="photo-sticker"><img src="/landing-assets/img/model-coral-thumb.webp" width="432" height="768" alt="Ảnh nhân vật nữ tóc ngắn áo san hô dùng để tạo clip nhảy"><figcaption>Ảnh đầu vào <span aria-hidden="true">↗</span></figcaption></figure>
-        <div class="stage-bottom"><span>Video mẫu → video của bạn.</span><div class="stage-actions"><button id="stagePause" aria-pressed="false">Tạm dừng Ⅱ</button></div></div>
-      </div>
-    </section>
-    <div class="ticker" aria-hidden="true"><div>YOUR PHOTO <span>↗</span> YOUR MOVES <span>↗</span> YOUR NEXT CLIP <span>↗</span> ODANCE <span>↗</span> YOUR PHOTO <span>↗</span> YOUR MOVES <span>↗</span> YOUR NEXT CLIP <span>↗</span></div></div>
-    <section class="container transformation" id="how">
-      <div class="section-heading"><div><p class="eyebrow">TỪ ẢNH TĨNH ĐẾN CLIP NHẢY</p><h2>Cùng một điệu nhảy.<br>Một nhân vật hoàn toàn mới.</h2></div><p>Chọn ảnh của bạn, thêm video chuyển động.<br>Phần còn lại để ODance làm.</p></div>
-      <div class="comparison">
-        <figure class="comparison-panel"><div class="panel-header"><span>01 / ẢNH CỦA BẠN</span><span>JPG</span></div><img id="compareImage" class="panel-media" src="/landing-assets/img/model-coral.webp" width="941" height="1672" loading="lazy" alt="Ảnh đầu vào nhân vật nữ tóc ngắn áo san hô"><figcaption>Giữ nhân vật và phong cách từ ảnh.</figcaption></figure>
-        <div class="formula-mark" aria-hidden="true">+</div>
-        <figure class="comparison-panel"><div class="panel-header"><span>02 / CHUYỂN ĐỘNG MẪU</span><span>MP4</span></div><video id="sourceVideo" class="panel-media" playsinline loop muted controls preload="metadata" poster="/landing-assets/img/motion-marie-poster.jpg" aria-label="Video chuyển động mẫu tham khảo từ TikTok Marie.RA"><source src="/landing-assets/img/motion-marie-1080.mp4" type="video/mp4"></video><figcaption>Chọn điệu nhảy bạn muốn thử.</figcaption></figure>
-        <div class="formula-mark" aria-hidden="true">=</div>
-        <figure class="comparison-panel output-panel"><div class="panel-header"><span>03 / KẾT QUẢ ODANCE</span><span>AI VIDEO</span></div><video id="compareVideo" class="panel-media" playsinline loop muted controls preload="metadata" poster="/landing-assets/img/result-coral-poster.jpg" aria-label="Kết quả ghép ảnh và chuyển động bằng ODance"><source src="/landing-assets/img/clip-coral-1080.mp4" type="video/mp4"></video><figcaption>Một clip mới với nhân vật bạn chọn.</figcaption></figure>
-      </div>
-      <div class="source-note"><p>Ảnh nhân vật AI. Clip kết quả được tạo bằng ODance.<br>Chuyển động tham khảo: <a href="https://www.tiktok.com/@mariewer.ra/video/7658020227644542240" target="_blank" rel="noopener">Marie.RA / TikTok ↗</a></p><a class="text-link" href="https://dance.ostudio.io.vn/create/general?id=1">Thử với ảnh của bạn <span aria-hidden="true">↗</span></a></div>
-    </section>
-    <section class="container proof-gallery" id="examples" aria-labelledby="examples-title">
-      <div class="proof-intro"><p class="eyebrow">THÊM KẾT QUẢ THẬT</p><h2 id="examples-title">Một ảnh khác.<br>Một nhịp khác.</h2><p>Hai ảnh nhân vật, hai đoạn nhảy mẫu. Bấm phát để xem clip ODance tạo ra.</p></div>
-      <div class="proof-grid">
-        <article class="proof-card"><div class="proof-media"><video id="proofSaffron" playsinline muted loop controls preload="metadata" poster="/landing-assets/img/result-saffron-poster.jpg" aria-label="Kết quả ODance: nhân vật áo vàng nhảy nhẹ nhàng"><source src="/landing-assets/img/clip-saffron-1080.mp4" type="video/mp4"></video><button class="proof-play" data-proof="proofSaffron" aria-label="Phát clip áo vàng">▶ <span>Xem clip</span></button><figure class="proof-input"><img src="/landing-assets/img/model-saffron.webp" width="941" height="1672" loading="lazy" alt="Ảnh đầu vào nhân vật áo vàng"><figcaption>ẢNH GỐC</figcaption></figure></div><div class="proof-details"><div><span>02 / ODANCE</span><h3>Nhẹ và tươi.</h3></div><a href="https://www.tiktok.com/@ciin/video/7690187261358443828" target="_blank" rel="noopener">Xem nhịp mẫu ↗</a></div></article>
-        <article class="proof-card"><div class="proof-media"><video id="proofLilac" playsinline muted loop controls preload="metadata" poster="/landing-assets/img/result-lilac-poster.jpg" aria-label="Kết quả ODance: nhân vật áo tím nhảy nhẹ nhàng"><source src="/landing-assets/img/clip-lilac-1080.mp4" type="video/mp4"></video><button class="proof-play" data-proof="proofLilac" aria-label="Phát clip áo tím">▶ <span>Xem clip</span></button><figure class="proof-input"><img src="/landing-assets/img/model-lilac.webp" width="941" height="1672" loading="lazy" alt="Ảnh đầu vào nhân vật áo tím"><figcaption>ẢNH GỐC</figcaption></figure></div><div class="proof-details"><div><span>03 / ODANCE</span><h3>Mềm và có nhịp.</h3></div><a href="https://www.tiktok.com/@mariewer.ra/video/7658020227644542240" target="_blank" rel="noopener">Xem nhịp mẫu ↗</a></div></article>
-      </div>
-      <div class="proof-footer"><span>Ảnh mẫu được tạo bằng AI. Video kết quả được tạo bằng ODance.</span><a class="button" href="https://dance.ostudio.io.vn/create/general?id=1">Thử với ảnh của bạn <span aria-hidden="true">↗</span></a></div>
-    </section>
-    <section class="create-strip container"><p>CHỈ CẦN BẠN CHỌN.</p><div><span>Ảnh rõ mặt</span><span aria-hidden="true">→</span><span>Clip bạn thích</span><span aria-hidden="true">→</span><span>Pro · 1080p</span><span aria-hidden="true">→</span><strong>Tạo & tải xuống</strong></div></section>
-    <section class="pricing-section" id="pricing">
-      <div class="container pricing-layout">
-        <div class="pricing-copy"><h2>Sáng tạo theo<br>ngân sách của bạn.</h2><p>ODance xuất video Pro 1080p. Chọn thời lượng để xem giá.</p><a class="text-link" href="https://dance.ostudio.io.vn/pricing">Xem các gói nạp credit <span aria-hidden="true">↗</span></a></div>
-        <div class="calculator">
-          <div class="quality-fixed"><span>Chất lượng video</span><strong>Pro · 1080p</strong></div>
-          <fieldset><legend>Thời lượng</legend><div class="segmented duration-controls"><button type="button" data-seconds="5" aria-pressed="false">5 giây</button><button type="button" class="selected" data-seconds="10" aria-pressed="true">10 giây</button><button type="button" data-seconds="15" aria-pressed="false">15 giây</button><button type="button" data-seconds="20" aria-pressed="false">20 giây</button></div></fieldset>
-          <div class="cost-output" aria-live="polite"><p><span id="costVnd">1.500</span><small>đ / video</small></p><span id="costSummary">Pro 1080p, 10 giây · 1,5 credit</span></div>
-          <p class="cost-note">Giá Pro theo ODance · 1 credit = 1.000đ: 5/10/15/20 giây là 1.000/1.500/2.000/2.500đ.</p>
-          <a class="button full" href="https://dance.ostudio.io.vn/create/general?id=1">Tạo video với ODance <span aria-hidden="true">↗</span></a>
-        </div>
-      </div>
-    </section>
-    <section class="container ovideo-section" id="ovideo" aria-labelledby="ovideo-title">
-      <div class="ovideo-copy">
-        <p class="eyebrow"><span class="ovideo-dot" aria-hidden="true"></span> OVIDEO / WINDOWS STUDIO</p>
-        <h2 id="ovideo-title">Biến máy tính thành<br><em>xưởng video AI chạy hàng loạt.</em></h2>
-        <p class="ovideo-intro">Bớt ngồi canh từng clip. OVideo giúp bạn gom ý tưởng thành cả lô nội dung, tự chạy hàng đợi nền ngay trên máy. Chọn Seedance + Veo3 để tự động hóa Google Flow bằng tài khoản của bạn, hoặc Muse.ai để tạo ảnh và video theo phong cách riêng.</p>
-        <div class="ovideo-product-list">
-          <article class="ovideo-product-row">
-            <span class="ovideo-index">01</span>
-            <div><h3>Seedance + Veo3</h3><p>Đẩy nhiều video vào hàng đợi, để quy trình chạy nền trong lúc bạn làm việc khác.</p></div>
-          </article>
-          <article class="ovideo-product-row">
-            <span class="ovideo-index">02</span>
-            <div><h3>Muse.ai</h3><p>Xưởng tạo ảnh và video theo phong cách riêng.</p></div>
-          </article>
-          <article class="ovideo-product-row">
-            <span class="ovideo-index">03</span>
-            <div><h3>Sub</h3><p>Trích xuất phụ đề, lồng tiếng và render video hoàn chỉnh ngay trên máy.</p></div>
-          </article>
-        </div>
-        <div class="ovideo-actions">
-          <a class="ovideo-button" href="https://ovideo.ostudio.io.vn/" target="_blank" rel="noopener">Khám phá OVideo <span aria-hidden="true">↗</span></a>
-          <span>Windows 10/11 · Sản lượng tùy hạn mức tài khoản dịch vụ và cấu hình máy</span>
-        </div>
-      </div>
-      <aside class="ovideo-visual" aria-label="Ba phiên bản phần mềm OVideo cho Windows">
-        <div class="ovideo-visual-head"><span>O STUDIO / 03</span><span>WINDOWS 10—11</span></div>
-        <div class="ovideo-visual-center">
-          <img src="/landing-assets/img/ovideo-logo-sang.png" width="176" height="55" loading="lazy" alt="OVideo">
-          <p>Một thương hiệu.<br><strong>Ba xưởng sáng tạo.</strong></p>
-        </div>
-        <div class="ovideo-visual-products"><span>SEEDANCE + VEO3</span><span>MUSE.AI</span><span>SUB</span></div>
-        <div class="ovideo-visual-foot"><span>HÀNG ĐỢI</span><span>VIDEO THEO LÔ</span><span>ẢNH + VIDEO</span></div>
-      </aside>
-    </section>
-    <section class="container faq-section" id="faq">
-      <div class="faq-heading"><h2>Trước khi<br> bạn bắt đầu.</h2><a class="text-link" href="https://t.me/ostudio_support_bot" target="_blank" rel="noopener">Nhắn hỗ trợ <span aria-hidden="true">↗</span></a></div>
-      <div class="questions">
-        <details><summary>Cần chuẩn bị những gì?<span aria-hidden="true">+</span></summary><p>Một ảnh nhân vật rõ nét và một video chuyển động mẫu. Nên chọn ảnh và video có góc nhìn, dáng người và tỷ lệ khung hình tương tự nhau.</p></details>
-        <details><summary>Đăng nhập bằng cách nào?<span aria-hidden="true">+</span></summary><p>ODance dùng tài khoản Google. Mở app, đăng nhập để tạo video và xem lịch sử của bạn.</p></details>
-        <details><summary>Kết quả có giống hoàn toàn video mẫu không?<span aria-hidden="true">+</span></summary><p>AI chuyển chuyển động sang nhân vật trong ảnh. Kết quả phụ thuộc vào ảnh, video mẫu và model bạn chọn; có thể có sai lệch ở khuôn mặt, tay hoặc chuyển động phức tạp.</p></details>
-        <details><summary>Video có chất lượng và thời lượng nào?<span aria-hidden="true">+</span></summary><p>ODance xuất video Pro 1080p. Bạn có thể chọn thời lượng 5, 10, 15 hoặc 20 giây cho các model nhảy hỗ trợ.</p></details>
-        <details><summary>Video tạo xong nằm ở đâu?<span aria-hidden="true">+</span></summary><p>Vào Lịch sử trong ODance để kiểm tra tiến trình, xem kết quả và tải video. Thời gian hoàn thành phụ thuộc model và hàng đợi xử lý.</p></details>
-        <details><summary>OVideo chạy được trên máy cấu hình nào?<span aria-hidden="true">+</span></summary><p>OVideo chạy trên Windows 10/11 64-bit. Tốc độ và lượng video xử lý tùy cấu hình máy cùng hạn mức của tài khoản dịch vụ AI bạn kết nối.</p></details>
-        <details><summary>License 1 máy là sao?<span aria-hidden="true">+</span></summary><p>Mỗi license gắn với một máy tính. Khi đổi máy, bạn liên hệ hỗ trợ để kích hoạt lại license trên máy mới theo điều khoản của gói đã mua.</p></details>
-        <details><summary>Tải app OVideo ở đâu sau khi mua?<span aria-hidden="true">+</span></summary><p>Sau khi thanh toán được xác nhận, link tải bộ cài riêng của bạn sẽ hiện tại trang đơn hàng trên ovideo.ostudio.io.vn. Không có link tải công khai.</p></details>
-      </div>
-    </section>
+<main id="main">
+  <section class="hub-hero container">
+    <p class="eyebrow"><span class="live-dot" aria-hidden="true"></span> OSTUDIO · HỆ SINH THÁI CÔNG CỤ AI</p>
+    <h1>Một xưởng sáng tạo.<br><em>Tám công cụ.</em></h1>
+    <p class="hub-lede">Từ một bức ảnh thành clip nhảy. Từ kịch bản thành video hàng loạt. Từ giọng đọc đến phụ đề, nhạc nền và bài đăng. Mỗi công cụ làm một việc thật tốt, dùng chung một tài khoản.</p>
+    <div class="hub-actions">
+      <a class="button" href="#cong-cu">Chọn công cụ <span aria-hidden="true">↗</span></a>
+      <a class="text-link" href="#video">Xem nhóm dựng video <span aria-hidden="true">↓</span></a>
+    </div>
+    <dl class="hub-stats">
+      <div><dt>8</dt><dd>Công cụ đang chạy</dd></div>
+      <div><dt>3</dt><dd>Nhóm công việc</dd></div>
+      <div><dt>1</dt><dd>Tài khoản dùng chung</dd></div>
+      <div><dt>Việt</dt><dd>Giao diện và hỗ trợ</dd></div>
+    </dl>
+  </section>
 
-    <section class="container trust-section" aria-labelledby="trust-title">
-      <p class="eyebrow">TIN CẬY</p>
-      <h2 id="trust-title">[ĐIỀN: tiêu đề section tin cậy — review/số liệu thật do chủ site cung cấp]</h2>
-      <p>[ĐIỀN: số liệu/review thật kèm nguồn, hoặc để trống section này cho tới khi có dữ liệu. Không tự viết testimonial.]</p>
-    </section>
-    <section class="final-section container"><p class="eyebrow">YOUR NEXT CLIP STARTS HERE</p><div class="final-cta"><h2>Ảnh đã có.<br><em>Nhảy thôi.</em></h2><a class="button" href="https://dance.ostudio.io.vn/create/general?id=1">Tạo clip với ODance <span aria-hidden="true">↗</span></a></div></section>
-  </main>
-  <footer class="container footer"><div><a class="brand" href="#top"><img src="/landing-assets/ostudio-logo.svg" width="30" height="30" alt=""><span>OStudio</span></a><p>ODance trên web. OVideo trên Windows.</p></div><div class="footer-links"><a href="https://dance.io.vn/">ODance</a><a href="https://ovideo.ostudio.io.vn/">OVideo</a><a href="https://ovideo.ostudio.io.vn/huong-dan">Hướng dẫn OVideo</a><a href="https://dance.io.vn/terms">Điều khoản</a><a href="https://dance.io.vn/privacy">Bảo mật</a><span>Liên hệ: [ĐIỀN: email/Zalo]</span><span>© 2026 OStudio</span></div></footer>
-</body></html>
+  <div class="ticker" aria-hidden="true"><div>ODANCE <span>↗</span> OVIDEO <span>↗</span> OEDIT <span>↗</span> OSUB <span>↗</span> OVEO3 <span>↗</span> VOXEER <span>↗</span> OZALO <span>↗</span> OBUFF <span>↗</span></div></div>
+
+  <section class="container hub-section" id="cong-cu">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">01 / TOÀN BỘ CÔNG CỤ</p>
+        <h2>Tám công cụ.<br>Chọn theo việc bạn đang làm.</h2>
+      </div>
+      <p>Mỗi thẻ dưới đây mở thẳng công cụ tương ứng. Không cần cài thêm gì để bắt đầu.</p>
+    </div>
+
+    <div class="hub-grid">
+      <article class="hub-card">
+        <div class="hub-icon"><img src="/img/ovideo-logo-sang.png" alt="" width="120" height="38"></div>
+        <h3>OVideo</h3>
+        <p class="hub-tag">Bộ ba app Windows</p>
+        <p>Seedance + Veo3 tự động hoá Google Flow, Muse.ai tạo ảnh và video, Sub xử lý phụ đề và lồng tiếng. Chạy hàng đợi ngay trên máy.</p>
+        <ul class="hub-points">
+          <li>Hàng đợi video theo lô</li>
+          <li>Tệp thành phẩm lưu trên máy</li>
+        </ul>
+        <a class="hub-link" href="https://ovideo.ostudio.io.vn/">Mở OVideo <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="hub-card">
+        <div class="hub-icon hub-icon--mark">✂</div>
+        <h3>OEdit</h3>
+        <p class="hub-tag">Dựng video trên Windows</p>
+        <p>Thả clip vào timeline, gõ lệnh bằng tiếng Việt. Cắt ậm ừ, lên phụ đề, ghép nhạc, chỉnh màu và xuất dọc cho TikTok, Reels, Shorts.</p>
+        <ul class="hub-points">
+          <li>Agent AI hiểu ngữ cảnh dự án</li>
+          <li>Trả một lần, dùng mãi</li>
+        </ul>
+        <a class="hub-link" href="https://ov.ostudio.io.vn/oedit/">Mở OEdit <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="hub-card">
+        <div class="hub-icon hub-icon--mark">◉</div>
+        <h3>ODance</h3>
+        <p class="hub-tag">Ảnh thành clip nhảy</p>
+        <p>Ghép ảnh nhân vật với video chuyển động mẫu. Giữ nguyên gương mặt và phong cách, xuất clip Pro 1080p.</p>
+        <ul class="hub-points">
+          <li>Chọn điệu nhảy có sẵn</li>
+          <li>Tính giá theo thời lượng</li>
+        </ul>
+        <a class="hub-link" href="https://dance.io.vn/">Mở ODance <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="hub-card">
+        <div class="hub-icon"><img src="/osub-logo.svg" alt="" width="38" height="38"></div>
+        <h3>Osub</h3>
+        <p class="hub-tag">Phụ đề và lồng tiếng</p>
+        <p>Bóc phụ đề, dịch, lồng tiếng bằng giọng clone rồi render video hoàn chỉnh. Quyền dùng gắn với tài khoản Google.</p>
+        <ul class="hub-points">
+          <li>Một Gmail một máy</li>
+          <li>Mọi gói cùng tính năng</li>
+        </ul>
+        <a class="hub-link" href="https://sub.ostudio.io.vn/">Mở Osub <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="hub-card">
+        <div class="hub-icon hub-icon--mark">✦</div>
+        <h3>OVeo3</h3>
+        <p class="hub-tag">Text và ảnh thành video</p>
+        <p>Tạo video AI hàng loạt từ văn bản hoặc hình ảnh. Hỗ trợ batch, tải tự động, chạy trên Windows và macOS.</p>
+        <ul class="hub-points">
+          <li>Tạo theo lô</li>
+          <li>Tự tải kết quả về máy</li>
+        </ul>
+        <a class="hub-link" href="https://tool.ostudio.io.vn/">Mở OVeo3 <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="hub-card">
+        <div class="hub-icon"><img src="/ovoice-logo.svg" alt="" width="38" height="38"></div>
+        <h3>Voxeer</h3>
+        <p class="hub-tag">Giọng đọc AI</p>
+        <p>Đổi văn bản thành giọng nói tiếng Việt và hơn 30 ngôn ngữ. Trả theo ký tự, không thuê bao, không phí duy trì.</p>
+        <ul class="hub-points">
+          <li>Tính tiền theo ký tự</li>
+          <li>Nhiều giọng Việt</li>
+        </ul>
+        <a class="hub-link" href="https://tts.ostudio.io.vn/">Mở Voxeer <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="hub-card">
+        <div class="hub-icon hub-icon--mark">◎</div>
+        <h3>Ozalo</h3>
+        <p class="hub-tag">Tự động hoá Zalo</p>
+        <p>Quản lý nhiều tài khoản Zalo, kết bạn và gửi tin nhắn hàng loạt có kiểm soát, theo dõi tiến trình từng tài khoản.</p>
+        <ul class="hub-points">
+          <li>Chạy qua trình duyệt của bạn</li>
+          <li>Hàng đợi và nhật ký rõ ràng</li>
+        </ul>
+        <a class="hub-link" href="https://zalo.ostudio.io.vn/">Mở Ozalo <span aria-hidden="true">↗</span></a>
+      </article>
+
+      <article class="hub-card">
+        <div class="hub-icon hub-icon--mark">✳</div>
+        <h3>OBuff</h3>
+        <p class="hub-tag">Tăng tương tác mạng xã hội</p>
+        <p>Đặt dịch vụ tương tác với giá công khai, theo dõi đơn minh bạch và nhận hỗ trợ khi đơn chưa về đúng.</p>
+        <ul class="hub-points">
+          <li>Giá rõ ràng từng dịch vụ</li>
+          <li>Theo dõi trạng thái đơn</li>
+        </ul>
+        <a class="hub-link" href="https://sub24.ostudio.io.vn/">Mở OBuff <span aria-hidden="true">↗</span></a>
+      </article>
+    </div>
+  </section>
+
+  <section class="container hub-section" id="video">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">02 / NHÓM DỰNG VIDEO</p>
+        <h2>Ba cách ra một clip.</h2>
+      </div>
+      <p>Tuỳ bạn bắt đầu từ ảnh, từ kịch bản hay từ clip thô đã quay.</p>
+    </div>
+    <div class="hub-rows">
+      <a class="hub-row" href="https://ov.ostudio.io.vn/oedit/">
+        <span class="hub-row-n">01</span>
+        <span class="hub-row-main"><b>OEdit</b><small>Có clip thô, cần cắt và lên phụ đề nhanh</small></span>
+        <span class="hub-row-go" aria-hidden="true">↗</span>
+      </a>
+      <a class="hub-row" href="https://dance.io.vn/">
+        <span class="hub-row-n">02</span>
+        <span class="hub-row-main"><b>ODance</b><small>Có ảnh nhân vật, muốn thành clip chuyển động</small></span>
+        <span class="hub-row-go" aria-hidden="true">↗</span>
+      </a>
+      <a class="hub-row" href="https://tool.ostudio.io.vn/">
+        <span class="hub-row-n">03</span>
+        <span class="hub-row-main"><b>OVeo3</b><small>Có kịch bản, cần sinh video hàng loạt</small></span>
+        <span class="hub-row-go" aria-hidden="true">↗</span>
+      </a>
+      <a class="hub-row" href="https://ovideo.ostudio.io.vn/">
+        <span class="hub-row-n">04</span>
+        <span class="hub-row-main"><b>OVideo</b><small>Cần cả bộ công cụ chạy nền trên máy Windows</small></span>
+        <span class="hub-row-go" aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="container hub-section" id="am-thanh">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">03 / NHÓM ÂM THANH VÀ PHỤ ĐỀ</p>
+        <h2>Lời nói và chữ.</h2>
+      </div>
+      <p>Hai công cụ lo phần nghe và phần đọc, dùng được cho mọi loại video.</p>
+    </div>
+    <div class="hub-rows">
+      <a class="hub-row" href="https://tts.ostudio.io.vn/">
+        <span class="hub-row-n">01</span>
+        <span class="hub-row-main"><b>Voxeer</b><small>Tạo giọng đọc từ văn bản, trả theo ký tự</small></span>
+        <span class="hub-row-go" aria-hidden="true">↗</span>
+      </a>
+      <a class="hub-row" href="https://sub.ostudio.io.vn/">
+        <span class="hub-row-n">02</span>
+        <span class="hub-row-main"><b>Osub</b><small>Bóc phụ đề, dịch và lồng tiếng cho video có sẵn</small></span>
+        <span class="hub-row-go" aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="container hub-section" id="van-hanh">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">04 / NHÓM VẬN HÀNH KÊNH</p>
+        <h2>Đăng bài và giữ tương tác.</h2>
+      </div>
+      <p>Sau khi có nội dung, hai công cụ này lo phần đưa nội dung ra và giữ nhịp tương tác.</p>
+    </div>
+    <div class="hub-rows">
+      <a class="hub-row" href="https://zalo.ostudio.io.vn/">
+        <span class="hub-row-n">01</span>
+        <span class="hub-row-main"><b>Ozalo</b><small>Quản lý nhiều tài khoản Zalo, gửi tin có kiểm soát</small></span>
+        <span class="hub-row-go" aria-hidden="true">↗</span>
+      </a>
+      <a class="hub-row" href="https://sub24.ostudio.io.vn/">
+        <span class="hub-row-n">02</span>
+        <span class="hub-row-main"><b>OBuff</b><small>Đặt tương tác mạng xã hội với giá công khai</small></span>
+        <span class="hub-row-go" aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </section>
+
+  <section class="container hub-section hub-faq" id="lien-he">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">05 / CÂU HỎI THƯỜNG GẶP</p>
+        <h2>Cần biết trước khi mua.</h2>
+      </div>
+      <p>Không thấy câu trả lời? Gửi email tới <a class="hub-inline" href="mailto:support@ohgod.tech">support@ohgod.tech</a>.</p>
+    </div>
+    <div class="hub-questions">
+      <details open><summary>Có phải mua cả bộ không?<span aria-hidden="true">+</span></summary><p>Không. Mỗi công cụ bán riêng, mua công cụ nào dùng công cụ đó. Trang này chỉ để bạn tìm đúng công cụ cho việc đang làm.</p></details>
+      <details><summary>Công cụ nào chạy trên máy, công cụ nào chạy trên web?<span aria-hidden="true">+</span></summary><p>OVideo, OEdit và Osub có bản cài cho Windows để dựng nặng trên máy. ODance, OVeo3, Voxeer chạy trên trình duyệt. Ozalo chạy qua trình duyệt của bạn nên cần giữ máy bật khi chạy hàng đợi.</p></details>
+      <details><summary>Dùng chung một tài khoản được không?<span aria-hidden="true">+</span></summary><p>Được. Các công cụ dùng chung đăng nhập Google. Bản quyền gắn với Gmail và thiết bị bạn dùng, nên đổi máy thì liên hệ hỗ trợ để chuyển.</p></details>
+      <details><summary>Mua rồi có phải trả thêm phí duy trì?<span aria-hidden="true">+</span></summary><p>Không có phí duy trì hàng tháng. Một số công cụ bán theo thời hạn (1 tháng, 6 tháng, 1 năm), một số bán một lần dùng mãi — giá ghi rõ ở trang từng công cụ.</p></details>
+    </div>
+  </section>
+
+  <section class="container final-section">
+    <p class="eyebrow">BẮT ĐẦU TỪ ĐÂU</p>
+    <div class="final-cta">
+      <h2>Chọn đúng công cụ.<br><em>Đỡ mất thời gian.</em></h2>
+      <a class="button" href="#cong-cu">Xem lại 8 công cụ <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+</main>
+
+<footer class="container footer">
+  <div>
+    <a class="brand" href="/"><img src="/ostudio-logo.svg" width="30" height="30" alt=""><span>OStudio</span></a>
+    <p>Công cụ AI cho người làm nội dung Việt.</p>
+  </div>
+  <div class="footer-links">
+    <a href="https://ovideo.ostudio.io.vn/">OVideo</a>
+    <a href="https://ov.ostudio.io.vn/oedit/">OEdit</a>
+    <a href="https://dance.io.vn/">ODance</a>
+    <a href="https://sub.ostudio.io.vn/">Osub</a>
+    <a href="https://tool.ostudio.io.vn/">OVeo3</a>
+    <a href="https://tts.ostudio.io.vn/">Voxeer</a>
+    <a href="mailto:support@ohgod.tech">support@ohgod.tech</a>
+    <span>© 2026 OStudio</span>
+  </div>
+</footer>
+
+<script src="/app.js" defer></script>
+</body>
+</html>

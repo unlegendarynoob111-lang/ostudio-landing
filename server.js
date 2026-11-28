@@ -6,8 +6,10 @@ function headers(res){res.setHeader('X-Content-Type-Options','nosniff');res.setH
 http.createServer((req,res)=>{
  headers(res);let route;try{route=decodeURIComponent(new URL(req.url,'http://localhost').pathname);}catch{res.writeHead(400);res.end();return;}
  if(route==='/landing-assets/tracking.json'){res.setHeader('Content-Type','application/json');res.end(JSON.stringify({tiktokPixelId:process.env.OSTUDIO_TIKTOK_PIXEL_ID||'',facebookPixelId:process.env.OSTUDIO_FACEBOOK_PIXEL_ID||''}));return;}
- if(route==='/'||route==='/index.html')route='/index.html';else if(route.startsWith('/landing-assets/'))route=route.slice('/landing-assets'.length);else{res.writeHead(404);res.end('Not found');return;}
+ if(route==='/')route='/index.html';else if(route.startsWith('/landing-assets/'))route=route.slice('/landing-assets'.length);
  const file=path.resolve(ROOT,'.'+route);if(!file.startsWith(ROOT+path.sep)){res.writeHead(403);res.end();return;}
+ const okExt=/\.(html|css|js|svg|png|jpg|jpeg|webp|mp4|mp3|woff2|ttf|ico|json|xml|txt)$/i.test(route);
+ if(!okExt){res.writeHead(404);res.end('Not found');return;}
  if(/(?:^|[\\/])(?:backups|qa|\.env|prepare-eleven\.cjs|probe\.cjs|assets\.cjs)(?:[\\/]|$)/.test(file)){res.writeHead(404);res.end();return;}
  fs.stat(file,(err,stat)=>{if(err||!stat.isFile()){res.writeHead(404);res.end('Not found');return;}
  const type=MIME[path.extname(file)]||'application/octet-stream';res.setHeader('Content-Type',type);res.setHeader('Accept-Ranges','bytes');
